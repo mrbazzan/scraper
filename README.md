@@ -14,6 +14,8 @@ Airbnb Profile Ranking System
     -review.py: Helps to get the number of Reviews from User's link.
 
     -photo.PNG: Picture of how the program runs.
+    
+    -video.ZIP: Contains short video of the program
 
 
 To run code
@@ -22,5 +24,5 @@ To run code
 - run "python main.py" in the command prompt
 
 
-PS: It should take about 25 minutes.
+PS: It takes a while to get the answer.
 	   

@@ -41,8 +41,8 @@ def crawler(results):
         each_link = tags.find_next('a').attrs['href']
         # print(each_link)
         while True:
-            # new_page = sel_driver("https://www.airbnb.com" + str(each_link))
-            new_page = requests.get("https://www.airbnb.com" + str(each_link)).text
+            new_page = sel_driver("https://www.airbnb.com" + str(each_link))
+            # new_page = requests.get("https://www.airbnb.com" + str(each_link)).text
             new_bs4 = BeautifulSoup(new_page, 'html.parser')
 
             answer = new_bs4.find('a', {'href': re.compile(r'/users/show/\d+')})
